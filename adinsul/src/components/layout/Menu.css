@@ -8,7 +8,7 @@
   .nav {
     height: 80px;
     width: 100%;
-    background: white;
+    background: #111112;
     
   }
   
@@ -17,6 +17,8 @@
     font-weight: bold;
     padding: 0 100px;
     line-height: 80px;
+    color: white;
+    font-family: monospace;
   }
   
   .nav ul{
@@ -31,13 +33,15 @@
   }
   
   .nav a{
-    color: black;
+    color: white;
     font-size: 18px;
     text-transform: uppercase;
     border: 1px solid transparent;
     padding: 7px;
+    font-family: monospace;
   }
   
   a.active, a:hover{
-    border: 1px solid black
+    border: 1px solid white;
+    border-radius: 16px;
   }
