@@ -1,5 +1,7 @@
 import React from "react"
 import { useParams } from 'react-router-dom'
+import Estado from '../../components/basico/Estado'
+import Card from '../../components/layout/Card'
 
 
 const Sobre = props => {
@@ -35,30 +37,34 @@ const Sobre = props => {
 
             <h2><center>Componentes do grupo:</center></h2><br></br>
 
-            <h3>Nome: Leonardo Basílio Diniz <br></br>
-                Curso: Desenvolvimento de sistemas 
-                <br></br><br></br>
+            <div className="Cards" >
 
-                Nome: Lucas Henrique Masson <br></br>
-                Curso: Desenvolvimento de sistemas
-                <br></br><br></br>
+                <Card titulo="Leonardo Basílio Diniz" cor="#111112">
+                    <Estado />
+                </Card>
 
-                Nome: Matheus Lopes de Almeida Tiago <br></br>
-                Curso: Desenvolvimento de sistemas
-                <br></br><br></br>
+                <Card titulo="Lucas Henrique Masson" cor="#111112">
+                    <Estado />
+                </Card>
 
-                Nome: Samuel Pereira Luciano <br></br>
-                Curso: Desenvolvimento de sistemas
-                <br></br><br></br>
+                <Card titulo="Matheus Lopes de Almeida Tiago" cor="#111112">
+                    <Estado />
+                </Card>
 
-                Nome: Sofia Pereira Gomes <br></br>
-                Curso: Desenvolvimento de sistemas
+                <Card titulo="Samuel Pereira Luciano" cor="#111112">
+                    <Estado />
+                </Card>
 
-                <br></br><br></br>
-                Nome: Vitor Hugo de Souza <br></br>
-                Curso: Desenvolvimento de sistemas
-            
-            </h3>
+                <Card titulo="Sofia Pereira Gomes" cor="#111112">
+                    <Estado />
+                </Card>
+
+                <Card titulo="Vitor Hugo de Souza" cor="#111112">
+                    <Estado />
+                </Card>
+            </div>
+
+
         </div>
 
 
