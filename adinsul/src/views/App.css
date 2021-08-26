@@ -4,3 +4,9 @@
   width: 100%;
   flex-direction: column;
 }
+
+.App .Cards{
+  display: flex;
+
+  flex-wrap: wrap;
+}
