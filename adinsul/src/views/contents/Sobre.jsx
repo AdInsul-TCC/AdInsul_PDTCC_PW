@@ -1,7 +1,8 @@
 import React from "react"
 import { useParams } from 'react-router-dom'
-import Estado from '../../components/basico/Estado'
+import Estado from '../../components/basico/Integrantes'
 import Card from '../../components/layout/Card'
+import image from '../../images/logoAdInsul150.png'
 
 
 const Sobre = props => {
@@ -11,6 +12,8 @@ const Sobre = props => {
         <div>
 
             <h1><center>Sobre</center></h1><br></br>
+
+            <center><img src={image} alt='' /></center>
 
             <h3>A diabetes é a quarta comorbidade que mais mata no mundo e que cada 10 segundos mais uma contrai a doença, segundo o Dr. Rodrigo Lamounier. 
                 O Brasil atualmente ocupa o 4º lugar como o país com maior número de pessoas diabéticas no mundo, o Ministério da Saúde no ano de 2013 apresentou 

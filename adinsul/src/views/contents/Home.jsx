@@ -1,5 +1,5 @@
 import React from "react"
-import image from '../../images/logoAdInsul125.png'
+import image from '../../images/logoAdInsul200.png'
 
 const Home = props => (
     <div>
@@ -11,7 +11,7 @@ const Home = props => (
 
         <br/><br/><br/>
 
-    <center><h2>Administrador de Insulina</h2></center>
+    <center><h1>Administrador de Insulina</h1></center>
     
     </div>
 )
